@@ -16,7 +16,7 @@ from training import misc
 class Projector:
     def __init__(self,
         vgg16_pkl                       = '/content/drive/My Drive/GAN/vgg16_zhang_perceptual.pkl',
-        num_steps                       = 2000,
+        num_steps                       = 1000,
         initial_learning_rate           = 0.1,
         initial_noise_factor            = 0.05,
         verbose                         = False
